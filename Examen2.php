@@ -16,7 +16,8 @@ function mayusculas($text1){
 
 #Desordenar.
 function desordenar($text1){
-
+    $res= str_shuffle($text1);
+    print "Desordenado es: ".$res."<br>";
 }
 #Convertir en array.
 function convertir($text1){
@@ -47,7 +48,7 @@ switch ($selector) {
        mayusculas($text1);
     break;
     case 'desord':
-        desordenar($text2);
+        desordenar($text1);
     break;
     case 'convert':
         convertir($text1,$text2,$text3);
