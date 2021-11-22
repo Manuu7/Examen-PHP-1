@@ -8,38 +8,38 @@ $selector=$_POST["operador"];
 #Funcion Decimal a binario.
 function debi($numrecog1){
     $res=decbin($numrecog1);
-    echo "El número " . $numrecog1 . " es " . $res . " en binario";
+    echo "El número ".$numrecog1." es ".$res." en binario";
 }
 
 
 #Funcion Decimal a octal.
 function deoc($numrecog1){
     $res= decoct($numrecog1);
-    echo "El número " . $numrecog1 . " es " . $res . " en octal";
+    echo "El número ".$numrecog1." es ".$res." en octal";
 }
 
 #Funcion Decimal a hexadecimal.
 function dehe($numrecog1){
     $res= dechex($numrecog1);
-    echo "El número " . $numrecog1 . " es " . $res . " en hexadecimal";
+    echo "El número ".$numrecog1." es ".$res." en hexadecimal";
 }
 
 #Funcion Binario a decimal.
 function bide($numrecog1){
     $res= bindec($numrecog1);
-    echo "El número " . $numrecog1 . " es " . $res . " en decimal";
+    echo "El número ".$numrecog1." es ".$res." en decimal";
 }
 
 #Funcion Octal a deciaml.
 function ocde($numrecog1){
     $res= octdec($numrecog1);
-    echo "El número " . $numrecog1 . " es " . $res . " en decimal";
+    echo "El número ".$numrecog1." es ".$res." en decimal";
 }
 
 #Funcion Hexadecimal a decimal.
 function hede($numrecog1){
     $res= hexdec($numrecog1);
-    echo "El número " . $numrecog1 . " es " . $res . " en decimal";
+    echo "El número ".$numrecog1." es ".$res." en decimal";
 }
 
 
