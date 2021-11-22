@@ -2,7 +2,6 @@
 
 #Variables metodo POST
 $numrecog1=$_POST["operando1"];
-$numrecog2=$_POST["operando2"];
 $selector=$_POST["operador"];
 
 
